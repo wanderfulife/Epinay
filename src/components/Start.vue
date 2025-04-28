@@ -53,11 +53,11 @@
 
           <!-- PDF Button for Q3a and Q3a_nonvoyageur -->
           <button
-            v-if="['Q13a'].includes(currentQuestion.id)"
+            v-if="[ 'Q1_quartier', 'Q3_quartier'].includes(currentQuestion.id)"
             @click="showPdf = true"
             class="btn-pdf"
           >
-            Voir le plan du parking
+            Voir le plan des quartiers
           </button>
           <!-- Standard options -->
           <div
